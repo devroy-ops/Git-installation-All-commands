@@ -1,0 +1,76 @@
+*************install & configure git***********
+
+    1yum install update
+    2  yum updaye -y
+    3  yum update -y
+    4  yum install git -y
+    5  which git
+    6  git config --global user.name "dev"
+    7  git config --global user.email "devry@gmail.com"
+    8  git config --list
+
+********git push commands***********************
+
+   11  mkdir virginia
+   12  ls -a
+   13  cd virginia/
+   14  git init
+   15  cat > virginiafile
+   16  cat virginiafile
+   17  git status
+   18  git add .
+   19  git commit -m "my first virginia"
+   20  git status
+   21  git log
+   22  git show (commit id like-cd41ceee3)
+   23  git remote add origin https://github.com/devroy-ops/centralgit.git
+   24  git push -u origin master
+********************git pull commands***************
+
+    9  mkdir singaporegit
+   10  ls
+   11  cd singaporegit/
+   12  git init
+   14  ls -a
+   15  git remote add origin https://github.com/devroy-ops/centralgit.git
+   16  git log
+   17  git status
+   18  git pull origin master
+   20  git show (commit id like-c3f5af5)
+   21  cat >>virginiafile
+   23  git status
+   24  git add .
+   25  git commit -m "singapore"
+   26  git status
+   27  git log
+   29  git push origin master
+
+**************************git ignore file**********
+
+
+ cd virginia/
+   45  vi .gitignore
+comments:-*.css
+        :-*.java
+    
+   46  git add .gitignore
+   47  git commit -m "ignore"
+   48  git status
+   49  touch file1.txt file2.txt file.java file4.css file5.java
+   50  ls
+   51  git status
+   52  git add .
+   54  git commit -m "ignore java"
+   55  git log
+   56  git show (commit id like-86050)
+   57  touch dev.java
+   58  git status
+   59  touch roy.txt
+   60  git status
+   61  git add .
+   62  git status
+   63  git log -2(check last 2 commit)
+   66  ls
+   67  cd virginia/
+   72  git log --oneline(check all in one line)
+   73  git log --grep "ignore"(find commit from content)
