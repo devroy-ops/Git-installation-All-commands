@@ -74,3 +74,4 @@ comments:-*.css
    67  cd virginia/
    72  git log --oneline(check all in one line)
    73  git log --grep "ignore"(find commit from content)
+*************************END**********************
